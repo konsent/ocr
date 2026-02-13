@@ -25,15 +25,6 @@ HEADER_RATIO = 0.05   # 상단 8% 제거
 FOOTER_RATIO = 0.93   # 하단 8% 제거
 COLUMN_SPLIT_RATIO = 0.5  # 좌우 단 분리 기준
 
-# # 제목 판별 규칙
-# TITLE_PATTERNS = [
-#     r"^\d+\.\d+\s+.+",      # 2.0 Title
-#     r"^\d+\.\d+\.\d+\s+.+", # 1.2.3 Title
-#     r"^\d+\s+.+",           # 1 Title
-#     r"^[A-Z][A-Z\s\-]{5,}$" # 대문자 제목
-# ]
-
-
 
 # ---------------------------
 # 제목 레벨 함수
