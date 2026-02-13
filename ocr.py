@@ -15,7 +15,7 @@ gc = gspread.authorize(creds)
 sheet = gc.open_by_url("https://docs.google.com/spreadsheets/d/18ZPGcV0qElVQq8JaMMp3nib0MT6_znnIETQvGsumCwM/edit?gid=0#gid=0").sheet1
 
 
-PDF_PATH = "RW_Rules_FINAL_Med_Res.pdf"
+PDF_PATH = "RS_ScenarioBook_Final.pdf"
 OUTPUT_PATH = "output.txt"
 
 # ---------------------------
@@ -91,11 +91,14 @@ def merge_paragraphs(lines):
         else:
             # 문단 분리 조건 판별
             should_split = False
-            if pending_break:
+            # 불릿 포인트로 시작하면 무조건 분리
+            if line[0] in ['•', '●', '-']:
+                should_split = True
+            elif pending_break:
                 should_split = True
             elif buffer:
                 # 이전 줄이 마침표로 끝나고, 현재 줄이 대문자/숫자 등으로 시작하면 분리
-                if buffer.strip()[-1] in ['.', '?', '!', '"', '”'] and (line[0].isupper() or line[0].isdigit() or line[0] in ['•', '-']):
+                if buffer.strip()[-1] in ['.', '?', '!', '"', '”'] and (line[0].isupper() or line[0].isdigit()):
                     should_split = True
 
             if should_split:
