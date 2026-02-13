@@ -1,0 +1,1047 @@
+RULE
+Table of C
+1.0 Introduction ............................................................ 2
+2.0 Components and Terms ......................................... 2
+3.0 Sequence of Play .................................................... 5
+4.0 Movement .............................................................. 5
+5.0 Terrain .................................................................... 5
+6.0 Stacking ................................................................. 7
+7.0 Zone of Control ...................................................... 7
+8.0 Combat ................................................................... 7
+GMT Games, LLC • P.O. Box
+BOOK
+Contents
+9.0 Assaults .................................................................. 11
+10.0 Ranged Attacks ...................................................... 11
+11.0 Anti-Tank Fire........................................................ 15
+12.0 Special Units .......................................................... 15
+13.0 Reinforcements, Replacements & Recovery ......... 18
+14.0 Digging In .............................................................. 19
+15.0 Supply .................................................................... 19
+16.0 Night Turns ............................................................ 20
+1308, Hanford, CA 93232-1308
+1.0 Introduction
+Red Winter is a game that simulates the fighting between Finnish ski troops and the Soviet invaders around Tolvajärvi, Finland, during a crucial five day period of the Winter War of 1939. The players assume the roles of the commanders of the Soviet and Finnish forces and attempt to win the game according to specific victory objectives. The game was designed for two players, but can be played solitaire in order to learn the rules or explore vari- ous “what if” situations. The battle for Tolvajärvi presents an interesting gaming situa- tion, giving both players an opportunity to attack and defend. The front line is fluid, with maneuver being at least as important as brute strength. The game will rarely devolve into a stalemate. The Soviet player can up the stakes by committing armored units, effectively forgoing a win based on Victory Points in a gamble to win via his Automatic Victory Conditions. The Finnish player will receive a favorable morale boost if he can weather the Soviet onslaught until the final two days of the battle.
+Design Note: While some designer’s notes have been incor-
+porated directly into these rules, others have been moved to the Playbook to conserve space. A footnote after the title of a particular section alerts the reader that a related designer’s note can be found in section 18.0 of the Playbook.
+1.1 Scale
+Each game turn represents about 90 minutes. Each hexagon rep- resents an area roughly 425 yards across. Units represent mostly companies (Finnish and Soviet infantry, Soviet tanks, Soviet heavy machine guns), with some battalions (Soviet armored cars and off-map artillery) and platoons (Finnish engineers). Each Soviet infantry gun counter represents a battery of six 76mm regimental infantry guns. Each Finnish off-map artillery counter represents a battery of four 76mm field guns. Each Soviet off-map 76mm artillery counter represents a light battalion comprising either three batteries of four 76mm field guns, or one battery of
+four 76mm field guns and two batteries of 122mm howitzers
+(12 guns total). Each Soviet off-map 122mm or 152mm counter
+represents a battalion comprising three batteries of that caliber (12 howitzers total).
+1.2 Setting Up
+One player takes all Finnish units and markers, and the other takes the Soviets. If the players cannot reach an agreement as to who will play which side, they can use the Victory Point bid
+method (17.0.2). Place all common markers beside the board
+within easy reach of both players. Set aside all units and mark- ers with an asterisk in the upper right corner; these counters are only used with Optional Rules in the Playbook and should not be used for your first game unless you are an experienced wargamer. Then choose a scenario from the game rules. If you are new to the game, it is recommended that you start with the Tutorial Scenario (see the Getting Started card).
+Units are placed on the map and Turn Track according to the
+instructions for the chosen scenario. Setup information for the Campaign Game is listed in the upper right-hand corner of each individual unit. For shorter scenarios, see the individual listings in the Playbook for the correct setup information. Units with a numeric setup code are placed on the Turn Track on the indicated game turn; they will enter the game as Reinforce- ments (13.1) on that turn. Setup codes beginning with a letter refer to hex coordinates on the map. For example, Q25 refers to the 25th hex in column Q. Setup hexes are coded on the map in red (Soviets) and blue (Finns). If a setup code does not appear on the front of the counter, try flipping it over; five Finnish units begin the game on their reduced strength sides.
+2.0 Components and Terms
+Red Winter includes one map, two pairs of 6-sided dice, these rules, a Playbook, one sheet of counters, a Turn Track, a Get- ting Started card for new players, and a pair of identical Player Aid Cards.
+Glossary
+Assault: (9.0) An attack during the Action Phase, as part of movement. It is resolved using the CRT, but with a different set of modifiers than a Combat. AT: Anti-Tank. Refers to a type of weapon or attack aimed at destroying armored fighting vehicles.
+ATFT: Anti-Tank Fire Table located on the PAC and used to
+resolve the attacks of Finnish AT guns vs. Soviet armored units. Attack: An action with the goal of forcing the retreat or destruc- tion of an enemy unit. There are five types of attacks: Combats, Assaults, Ranged Attacks, Finnish Night Raids, and Anti-Tank Fire. All attacks are voluntary. Combat: (8.0) An attack against units in an adjacent hex, re- solved by comparing total CS of each side and rolling on the CRT. CRT: Combat Results Table located on the PAC; used to resolve Combats, Assaults, and Finnish Night Raids.
+CS: Combat Strength; a measure of a unit’s combat prowess,
+as derived mainly from the total number of rifles and LMGs. DofR aM di:e D roiell R. oll Modifier; a number which is added to the result FF: Friction Fire (Optional Rule 20.1); a Ranged Attack which targets a stack which is currently moving or conducting a Retreat or Advance After Combat with the intent of halting it or forcing a step reduction.
+FNRT: Finnish Night Raid Table located on the PAC; used to
+determine the success and column shift for a Finnish Night Raid (16.4) attack. Friendly Unit: Those units belonging to the same side (national- ity) as the owning player. HMG: Heavy machine gun; a type of MG with a tripod mount. It is more effective than an LMG, with a longer range, but less mobile. Infantry: Troops armed primarily with rifles and LMGs. Refers to infantry companies of both sides, as well as the Finnish en- gineer platoon and Finnish bicycle companies (but not to MG, Mortar, or Infantry Gun units).
+LMG: Light machine gun. A version of the MG which can be
+hand-held or bipod mounted. LOS: Line of Sight (10.6); an imaginary line drawn between a spotting unit and a target unit or hex. LOS is blocked by terrain types other than frozen lake. Loss: (8.5) Damage to a combat unit’s cohesion. In game terms, each loss is absorbed as either a step reduction (8.5.1) or a Re- treat (8.5.2).
+MA: Movement Allowance; a measure of how far a unit can
+move per turn. MG: Machine gun. A rapid fire, automatic weapon used for direct Ranged Attacks against unarmored targets including personnel.
+Morale Bonus: A modifier which provides one column shift in
+favor of the side with the bonus in Combats, two column shifts in Assaults, and a +1 DRM to Recovery. See the Turn Track to determine which side (if any) benefits. MPs: Movement Points; the portion of a unit’s MA required to enter a new hex. MP cost of a given hex depends on terrain type (see Map Key). Phasing Player: The player who is actively taking his turn; his opponent is the non-phasing player.. Range: The maximum distance in hexes over which the unit can project its RAS. Adjacent units are at a range of 1. Ranged Attack: (10.0) Attacks which generally take place at a range of 2 or more hexes.
+RAS: Ranged Attack Strength; the measure of a combat unit’s
+ability to project its strength at distance. An infantry company’s RAS is derived mainly from its total number of LMGs. RAT: Ranged Attack Table located on the PAC; used to resolve Ranged Attacks. RcoPm: pRaneyp lbaaccekm teon ftu Pllo sitnret;n gutshe d(1 t3o. 2r)e o-br uRieldc oan srteitduutcee (d1 3i.n2f.a1n) taryn eliminated unit from the Dead Pool. Step Strength: Refers to whether a two-sided unit is on its full strength (front) or weaker, reduced strength (back) side. Support: (10.3) Ranged Attacks in support of a Combat; classi- fied as either offensive or defensive when originating from the phasing or non-phasing player, respectively. SZLT: Sub Zero Loss Table (16.3) located on the PAC. VP: Victory Points; awarded for inflicting losses on enemy units and/or for controlling objectives. Used to determine which player wins a scenario.
+VR: Variable Reinforcement; units which may optionally be
+brought into play via special requirements or the expenditure of VPs. Limited to Soviet armored units (12.1) and the Finnish Provisional Company (12.8). ZOC: Zone of Control (7.0); the six adjacent hexes surrounding a unit into which the unit exerts its influence. eZOC refers to an enemy ZOC.
+2.1 Dice
+A pair of standard 6-sided dice is required for game play. Two dice are rolled and their results are added together to gener- ate a number from 2 to 12 for Combats (8.0), Assaults (9.0), and Ranged Attacks (10.0). A single die is rolled when resolving the following game events: AT Fire (11.0), Recovery (13.3), Sub- Zero Loss check (16.3), and Finnish Night Raids (16.4).
+2.2 Counters
+Most counters represent the various military formations that took part in the fighting. These counters are referred to as “units”. The remaining counters, called “markers”, are used for tracking information such as the current game turn or the availability of artillery ammunition.
+Soviet army units of 139th Rifle Divi-
+sion have a brown background, where-
+as Soviet independent units or assets
+are red.
+Finnish regimental (JR)
+units have a whitish back-
+ground, Finnish bicycle
+(PPP) units have a light
+blue background, and Finnish detached/independent (ErP) units have a blue-violet background. Most units are further color-coded by formation. Units with the same color ID box belong to the same regiment; those of the same battalion share the same color NATO infantry symbol. Combat units are printed with attributes which represent battle-
+field performance, as defined below:
+Setup Code
+Historical Unit
+Identification
+RAS value
+CS value
+Range
+RAS value
+MA value
+AT fire range
+• Upper left: Historical Unit Identification (also called “ID”). This is for historical purposes, but can also be helpful during setup.
+Example: 2/1/JR16 refers to the second company of the 1st
+battalion of the 16th Rifle Regiment of the Finnish Army. • Upper right: Setup Code (see 1.2).
+• A numeral indicates the unit’s game turn of entry (see
+Reinforcements, 13.0).
+• An underlined letter/number combination indicates the
+unit’s starting hex location on the map.
+• A boxed numeral indicates that the Soviet unit enters at
+hex X1 (see 13.1.1). • A numeral within a hex indicates that the unit starts within that number of hexes of the specified hex.
+• An empty hex means the unit starts stacked with any
+friendly unit.
+• An asterisk indicates an optional or variant unit (see
+section 20 in Playbook). • A colored circle indicates a special entry requirement (see
+12.1.4 and 12.8).
+• Lower left: CS (8.2)
+Units with a CS shown in a black box have their value
+doubled on the defense. If a unit’s CS is shown in
+parentheses, it cannot attack. The unit contributes its
+strength to a stack normally when defending.
+Unit Size
+Platoon Company
+Unit Type
+Unit-type Reduced-side
+symbol indicator
+(infantry) stripe
+Front Back
+• Lower center: RAS (10.0)
+Units with their RAS displayed in a yellow box utilize
+indirect Ranged Attacks (10.0b). If there is no yellow box,
+the unit utilizes direct Ranged Attacks (10.0a).
+• Lower center, in superscript: Range (10.1)
+• Lower center, in red-boxed superscript: Range of AT Fire
+(11.0). Note: only Finnish AT Guns have this attribute.
+• Lower right: MA (4.1)
+Units with their MA in an orange box are Soviet armored
+units and have special movement restrictions (see12.1.3). Units with two steps have a stripe indicating their reduced side.
+2.3 Map
+The map represents a bird’s-eye view of the area around Tolvajär- vi, Finland. Note that the village and the lake share the same
+name. The map has been overlaid with a pattern of hexagons
+(“hexes”) that are used to regulate movement and troop location. Hexes are defined by a letter/number coordinate system for ease of reference. A compass printed on the map points to relative north. See also Map Edge Boundaries (4.2).
+3.0 Sequence of Play
+The game is played in a series of turns. The Soviet player goes first in the Turn Sequence, unless otherwise indicated in the scenario instructions. If playing the Campaign Game scenario (17.1), see the special rules regarding Change of Finnish Op- erational Stance.
+Each game turn is divided into the following phases:
+I. First Player Reset Phase
+Player One flips all his “Fired” Mortars, Infantry Guns,
+and off-map Artillery to their front side and adjusts his
+ammo according to the Turn Track. He spends any RPs
+(13.2) that become available on the current game turn.
+II. First Player Action Phase
+Each unit may perform one of the following actions:
+• Move (4.0) and/or Assault (9.0).
+• Attempt Recovery (13.3). Reduced infantry compa-
+nies only.
+• Dig In (14.0). Infantry companies, engineers, or MG
+units only.
+During Night Turns (16.0) the following actions are also
+available:
+• Double Movement (16.1). Unit cannot begin phase
+in an eZOC. • Build a Bonfire (16.2) and/or attempt Recovery (13.3). Soviet units only.
+• Conduct a Night Raid (16.4). Finnish full strength
+infantry companies only.
+The first player may also bring Reinforcements (13.1) on
+to the map at any time during his Action Phase. Players
+may wish to indicate which units have taken an action by
+rotating them 180 degrees.
+III. First Player Combat Phase
+Player One rolls for Ranged Attacks (10.0) and conducts
+Combats (8.0), in any order. Player Two may roll for
+defensive support (10.3). At the end of the phase, all Sup-
+pressed markers are removed.
+IV. Second Player Turn
+As above, except that Player Two now conducts the opera-
+tions in steps I-III, in order. Replace “Player One” with
+“Player Two” and vice versa.
+V. Sub-Zero Loss Phase (16.3) (Night turns only)
+At the conclusion of each night turn, beginning with the
+Soviet player both players roll on the SZLT. Rolls are made
+for all Soviet stacks which are not under Bonfires (16.2)
+and all Finns under Skull markers (16.3.1). Remove all
+Skull and Bonfire markers.
+VI. Victory Check Phase
+Players check to see if either has won according to the
+Victory Conditions for the scenario. If not, advance the
+Turn marker and restart the Turn Sequence.
+4.0 Movement
+During the Action Phase, the phasing player may move all, some, or none of his units on the map.
+4.1 Movement Basics
+Each turn a unit may expend MPs up to its MA. Units move
+from hex to adjacent hex paying the cost of terrain listed on the
+Map Key for each hex entered or hexside crossed. Units move
+individually, with each unit completing its movement (and any Assaults) before moving the next unit (Exception: see 6.1). A unit may not enter an enemy occupied hex unless that hex contains a lone leader (Pajari).
+4.1.1 Minimum Movement Rule
+Units may always move one hex, regardless of terrain cost. This does not allow a unit to enter prohibited terrain. It does allow a unit or stack to conduct an Assault (9.0) if it began the Action Phase adjacent to the target of the Assault.
+4.2 Map Edge Boundaries
+Units may move off the map edge voluntarily via a friendly sup- ply source hex or by Retreat via any map edge hex. These units are removed from the game. They do not count as eliminated for victory purposes and cannot re-enter the map or be reconstituted.
+4.3 Extended Movement
+A unit which begins its Action Phase on a road, remains on con- nected road hexes at all times throughout its move, and is four or more hexes from all enemy units at all times during its move (including start and destination hexes), receives 2 additional MPs. Example: A Soviet MG unit with 4 MPs can move 12 hexes along a road, paying 0.5 per road hex, when using Extended Movement (4 + 2 = 6 MPs).
+4.4 Finnish Ski Bonus1
+All Finnish infantry, machine gun, mortar, and engineer units, as well as the Pajari leader, are equipped with skis and pay only 1 MP per frozen lake hex. Finnish AT units do not qualify for this ski bonus.
+5.0 Terrain2
+Each hex contains a particular type of terrain, as shown on the Map Key on the map. A hex is considered to consist entirely of the terrain type which occupies the majority of the hex.
+5.1 Prohibited Terrain
+Soviet armored units are limited to villages and roads (see
+12.1.3). All other unit types can enter any type of terrain if they have sufficient MPs.
+5.2 Terrain Types
+The individual terrain types are described as follows:
+5.2.1 Forest
+The area around Tolvajärvi is dominated by spruce
+and pine forest, with a mix of deciduous trees. Please
+note that the CRT is calibrated so that attacking into
+forest is the norm.
+5.2.2 Suo3
+Suo is a Finnish word which means “wetland.” The
+type represented in these games is most similar to a
+fen or mire. It is partially wooded. This time of year
+it is frozen, so the going is only moderately more difficult than crossing forest, due mainly to uneven ground.
+5.2.3 Village4
+These hexes represent areas which have been cleared,
+cultivated and settled, with small, mostly single story
+buildings of stone and wood. Many such “village”
+hexes contain but a single building. All village hexes are treated the same regardless of whether the map graphic depicts a single building or multiple buildings. Tolvajärvi village is defined as the eight connected village hexes: G18-19, H18-21, and I17-18.
+5.2.4 Frozen Lake5
+Units in frozen lake hexes are particularly vulnerable.
+When attacking from a frozen lake hex, units have their
+CS halved. Units attacking into a frozen lake hex receive
+a positive column shift (see CRT and 8.3). Note that some frozen lake hexes depict coastline, snowdrifts, or small gray islands (Examples: H23, H24, I24, U5, R11, and V31 are all frozen lake).
+5.2.5 The Hotel6
+The Hotel (hex M16) is considered a normal forest
+hex for all game purposes except as follows: When
+occupied by one or more defending infantry or MG
+units, the defenders ignore the first loss suffered in all Combats and Assaults for as long as they occupy the hex. Thus a 1/2 result becomes a 1/1. Both Finns and Soviets qualify for this benefit. Units in the Hotel still qualify for digging in (14.0).
+5.2.6 The Gravel Pits7
+This hex (L16) is treated as a normal forest hex for all
+game purposes. It is included on the map for historical
+interest only.
+5.3 Roads8
+Units moving from one hex to another via connecting roads pay only ½ MP regardless of the other terrain in the hex. The road movement cost may not be used to enter an eZOC (see 7.1). Units always pay the terrain cost to move adjacent to the enemy. To as- sist players in entering Reinforcements, we have added a series of small numbers along the roads leading away from the entry hexes. Three visually distinct types of roads appear on the map.
+These are:
+• Primary Road (narrow gray). This type of road
+is still crude by modern standards (and only
+about as wide as a Soviet T-26 tank!) but it is
+the only road in the region capable of supporting the
+Soviets’ extensive motorized supply network.
+• Main Road9 (wide gray). This is a portion of
+the primary road network that is important for
+Victory Conditions in some scenarios; it is
+treated as a primary road in all other regards.
+• Secondary Roads/Trails10 (narrow brown). These
+are barely functional as roads for vehicles in winter
+conditions. They include narrow dirt roads, horse
+paths, goat trails, hiking trails, and fishermen’s trails. Armored units (12.1.3) pay additional movement costs for us- ing secondary roads/trails. All other units use all road types interchangeably.
+5.4 Bridges11
+Bridges are hexside features that join two land hexes.
+Otherwise, bridges are treated as roads. Units do not
+pay any additional MPs to cross them, but units at-
+6.0 Stacking
+Up to five units of the same side, a maximum of three of which may be infantry companies, may stack together in a hex, regard- less of step strength. Leaders and markers never count toward stacking limits. Units of opposing sides may never stack together in the same hex. Players are always free to examine their op- ponent’s stacks. Stacking limits are only enforced during setup, at the end of each unit or stack’s movement (including Retreat and Advance After Combat), and the instant of an Assault (9.0). Thus, a unit may violate stacking limits with friendly units as it moves, advances, or retreats. Units forced to overstack when stacking is enforced are eliminated.
+6.1 Stacks and Movement
+Units that began the Action Phase stacked may move and/or
+Assault together as a stack. In order to do this, all units must be eligible to enter the terrain type of each hex entered. The MA of the stack is equal to the MA of the slowest unit in the stack. As the stack moves, it pays the MP cost for each hex entered based on the highest MP cost for any unit in the stack for each given terrain type. A stack may not form or disperse during movement (units cannot be “picked up” or “dropped off” along the way), but not all units stacked together at the start of the Action Phase need to move as part of the stack. Thus if three units began stacked, two could opt to move/Assault together as a stack while the third moved independently.
+7.0 Zone of Control
+Every combat unit exerts a ZOC into the 6 adjacent hexes, re- gardless of the type of terrain.
+7.1 ZOC and Movement
+Units must stop movement upon entering an eZOC. Units that
+begin their Action Phase in an eZOC pay +1 MP to leave the
+eZOC in addition to the cost of terrain entered. If the first hex
+entered is also in an eZOC the unit must stop movement. Im-
+portant: Units may not use road movement to enter an eZOC;
+they may use it to exit an eZOC, but they still pay the +1 MP.
+7.2 ZOC: Other Limitations
+An eZOC affects several other aspects of game play. While also addressed in their relevant rules sections, they have been gathered here for ease of reference.
+Units in an eZOC:
+• May not perform Ranged Attacks (10.0). Exception:
+Adjacent Defensive Support (10.3.6). • May not attempt Recovery (13.3). • May not Dig In (14.0).
+• May receive Replacements (13.2), so long as they are in
+supply (15.0).
+Additionally:
+• Moving units must end their movement upon entering an
+eZOC (7.1) but can still conduct an Assault (9.0) if they
+have enough MPs remaining.
+• Units which retreat into an eZOC take a step reduction to
+their stack for each eZOC hex entered (8.5.2.2).
+• Units performing a Multi-hex Advance After Combat must
+end their advance upon entering an eZOC (8.7.1).
+• Units reconstituted from the Dead Pool may not be placed
+in an eZOC (13.2.1). • Units which begin a night turn in an eZOC are not eligible to use Double Movement (16.1).
+• Soviet units which begin a night turn in an eZOC cannot
+build Bonfires (16.2).
+• Armored units (12.1) ignore an eZOC except for those of
+enemy AT units.
+7.3 Hex Control
+Some scenarios call for control of a particular location for pur- poses of victory determination. Unless specified otherwise in the scenario instructions, a hex is considered controlled by the player that was the last to occupy the hex with a combat unit, or the last to exert a ZOC into the hex. Control of a hex can change any number of times during a game. Players may wish to use the nationality markers provided in the counter mix to indicate hex control (unless they are being used for Fog of War; see Optional Rule 20.7). The Finns begin the first day of the battle (Dec. 8) with control of all hexes on the map, except for the Soviet supply source hex and those hexes occupied by or adjacent to Soviet units.
+8.0 Combat
+Units may attack adjacent enemy units during a friendly Com- bat Phase. Note that the term “attack” here means to perform a Combat between adjacent units and is not to be confused with
+Ranged Attacks (10.0). Combat is never mandatory between
+adjacent units. The following rules must be observed:
+a) All units within a defending hex must be attacked as a
+group, but any number of adjacent attacking hexes may
+attack the same defending hex. b) Only one defending hex may be attacked per attack roll.
+c) Each unit may conduct only one attack during its Combat
+Phase.
+d) Attackers stacked in the same hex may attack different
+adjacent defending hexes, so long as each attacking unit
+participates in only one attack.
+e) Each defending hex may be attacked only once per Combat
+Phase.
+f) Units may attack into terrain types which they are
+prohibited from entering, but may not Assault into such
+terrain. Note: This really only affects Soviet armored units.
+Design Note: It helps to think of Combats in this game as
+two way firefights between units armed primarily with rifles
+and LMGs. Close combats involving weapons such as gre-
+nades, Molotov cocktails, and SMGs are handled as Assaults
+(9.0), and long-ranged attacks from HMGs, LMGs, tanks,
+mortars, infantry guns, and off-map artillery are handled as Ranged Attacks (10.0).
+8.1 Conducting Combat
+Combat is performed via the following procedure:
+1) Phasing player declares which hex he is attacking and
+which unit or units are attacking it.
+2) Phasing player declares any offensive support he wishes
+to commit to the Combat (not applicable during an
+Assault).
+3) Non-phasing player declares any defensive support he
+wishes to commit to the Combat (not applicable during
+an Assault).
+4) If Soviet armored units and Finnish AT gun units are
+involved in the Combat (including situations where
+armored units are firing in support), AT Fire (11.2) is
+resolved.
+5) Any declared Support is resolved by rolling on the RAT,
+first by the phasing player, followed by the non-phasing
+player.
+6) Determine the Combat Ratio (8.2), remembering to halve
+the attacker CS for attacking from a frozen lake or across
+a bridge hexside (see 8.2, case #1), and halve the CS of
+armored units on night turns (see 8.2, case #2).
+7) Determine if any column shifts apply, and adjust the
+odds column accordingly. 8) Roll two dice and consult the CRT.
+9) Apply any losses called for by the CRT, defender first,
+either as Retreats or step losses. Note: In an Assault the
+attacker must take all losses as step reductions.
+10) Attacker may Advance After Combat (8.7) if the
+target hex has been cleared of defending units. After a
+successful Assault the attacker must advance into the
+vacated hex.
+11) All Ranged Attacks and/or the Combat against a
+particular hex must be resolved, and all results applied,
+before the phasing player attacks another hex.
+8.2 Combat Ratio
+Calculate odds by totaling the CS of all attacking units involved in the Combat and comparing this total to the total CS of defend-
+ers in the defending hex. Express these numbers as a simple
+ratio, called the Combat Ratio, which is rounded in favor of the defender to the smallest ratio which matches one of the columns on the CRT. Ratios greater than 6:1 are resolved using the 6:1 column. Ratios less than 1:4 are resolved using the 1:4 column (see note in 8.3 case #5). Examples: A total CS of 10 attacking a CS of 5 yields a combat ratio of 10 to 5, expressed more simply as 2:1. A total CS of 9 attacking 5 rounds down to a 1:1 attack. A total CS of 3 attacking 7 is not quite a 1:2 ratio, so the attacker uses the 1:3 column to resolve the attack.
+1. Frozen Lake / Bridge Penalty. If any attackers are in
+frozen lake hexes or across a bridge hexside, all such
+attackers have their CS halved (total the CS of all attacking
+units and halve the total, rounding up any fraction). This
+applies to Combats and Assaults.
+Example: A Soviet unit in a forest is adjacent to a Soviet
+unit in a frozen lake hex and both wish to combat the same
+adjacent Finnish unit in a forest. All units of both sides
+have a CS of 5. The Soviet unit in a frozen lake has its CS
+halved (2.5, rounded up to 3). So we have a total CS of 8
+(5+3) attacking vs. 5 defending, which rounds in favor of
+the defender to a 1:1 combat.
+2. Armor on Night Turn. Soviet armored units (12.1) have
+their CS halved on night turns (total the CS of all armored
+units in the stack and halve the total, rounding down any
+fraction). This applies to Combat and Assaults.
+8.3 Combat Ratio Modifiers
+Determine if any of the following modifiers apply to the Combat. If so, adjust the CRT column accordingly by applying all applicable modifiers. These modifiers are expressed as column shifts on the CRT, with an “L” indicating a shift to the left, and an “R” indicating a shift to the right. Thus a modifier of “2R” means that the combat ratio is adjusted two columns to the right (for example, from 2:1 to 4:1). All column shifts are cumulative (see 8.3.1).
+Combats (only):
+3. Suppression from Ranged Support. Each Suppression
+marker (10.4.1) shifts the Combat ratio by one column in
+favor of the firing player, to a maximum of 3L/3R.
+Example: The attacker and defender each commit two
+artillery units to support a Combat. Both of the attacker’s
+rolls succeed, and one of the defender’s rolls succeeds. The net result is 1R on the CRT.
+4. Concentric Attack Bonus. If attackers occupy two hexes
+directly opposite each other with respect to the defender,
+and/or three hexes evenly spaced with one hex between
+each attacking hex (see illustration), then the attacker
+qualifies for a 1R column shift.
+Play Note: When combined with the “Retreats and
+eZOC” rules (8.5.2.2) this has a greater effect than the
+1R column shift might suggest. Example of Concentric Attack: In the illustration, the three Finnish infantry companies gain a concentric attack bonus (1R) if they perform a Combat against the Soviet MG unit, as would the two Soviet infantry companies vs. the Finnish MG.
+Combats and Assaults:
+5. Defender in Frozen Lake. Soviet units attacking into a
+frozen lake hex receive a CRT shift of 3R. Finns attacking
+into a frozen lake hex receive a shift of 4R.
+Design Note: The Soviets wore brown and stuck out
+like sore thumbs on the white backdrop of the snow
+covered lakes.
+Note: If all attackers and defenders are in frozen lake
+hexes, cases #1 and #5 do not apply. Instead, the Combat
+or Assault is shifted in the Finns’ favor by one column.
+6. Pajari Leader Bonus. Finnish units stacked with Pajari
+gain a one column shift in their favor on the CRT whether
+attacking or defending in Combat and Assaults. Pajari
+lends this bonus even if he has retreated and is attacked
+subsequently in the same phase.
+7. Defender in “Dug-In” Hex. If the defending hex contains
+a Dug-In marker (14.0), the attacker suffers a 1L column
+shift.
+8. Morale Bonus.12 The side with
+the morale bonus (as indicated
+on the Turn Track) gains a 1R
+column shift when attacking or
+1L when defending in Combat. This shift is doubled to
+two columns during an Assault.
+Design Note: Morale plays a larger part in assault-style
+combat than it does in stand-off firefights. 9. Swohveine ta Attramckoinr gB oorn u1sL. Twhhee Sn odveifeetsn dgianing aw 1hRe nceovluerm onn seh iofrt
+more Soviet armored units contribute their CS to a Combat
+or Assault.
+10. Change of Finnish Operational Stance. The Finns
+receive a 1R column shift when attacking or 1L when
+defending during the turn in which the Finnish player
+declares the change of stance (see 17.1 The Campaign
+Game for rules regarding change of stance).
+11. Bonfire Bonus. If the defending hex contains a Bonfire
+marker (16.2) the attacking Finns receive a 2R column
+shift.
+12. Soviet Morale Collapse. (See 17.0.4)
+13. Soviet Coordination Penalty. (Optional Rule 20.10)
+14. Soviets in Eliminated Finnish Field Kitchen hex.
+(Optional Rule 20.8)
+Assaults (only):
+15. Finnish Submachine Gun (SMG) Bonus. The Finns gain
+a column shift in their favor in all Assaults involving one
+or more Finnish infantry units when the defending hex
+is forest, suo, or town, whether attacking or defending.
+Historical Note: The Finns were armed with SMGs
+and hunting knives—weapons that were very useful in
+close combat.
+8.3.1 Netting Out Combat Modifiers
+When determining which CRT column to use, add and subtract
+all right and left shifts to find a final “net” column shift from the original odds. For ratios greater than 6:1 or less than 1:4, ap- ply all column shifts in order to determine the true ratio before determining which CRT column to use. Example: A 19:2 attack rounds to 9:1 odds, and if combat modi- fiers yield a net 2L column shift, the final odds becomes 7:1, so the 6:1 column of the CRT is used.
+8.4 Resolving Combat
+To determine the results of a Combat, roll two dice (adding the results) and cross-reference this number with the column cor- responding to the final combat ratio. There are no DRMs. The number to the left of the slash corresponds to attacker losses, the number to the right, defender losses.
+8.5 Losses
+Losses can be taken as either step reductions (8.5.1) or Retreats (8.5.2). The defender always assigns his losses first, followed by the attacker. The owning player decides how to assign losses to his units, in any combination of Retreats and step reductions as
+he sees fit, with the following restrictions:
+a) The attacking force must always take the first loss as a
+step reduction.
+b) In an Assault, the attacker must take all losses as step
+reductions. Ithf ea pstleapy erre dchuocotisoenss a m coumst bbien adtiisotnri bofu tsetedp fi rresdt.u Wctihoenns adnedfe Rnedtirnega tisn, the Hotel hex with one or more infantry or MG units, the defender ignores the first loss (see 5.2.5). Example of allocating losses: A defending stack containing two Soviet infantry units (MA 5) and an AT gun unit (MA 3) suffer 3 losses as the result of a Combat. They cannot retreat all units 3 hexes in order to satisfy the losses because the AT gun unit has a retreat limit of one hex (see 8.5.2.1). However, if the players took the first loss as a step reduction to the AT gun (destroying it), the remaining losses could be satisfied by retreating all units 2 hexes.
+8.5.1 Step Reductions
+A loss taken as a step reduction requires flipping one full strength unit to its reduced strength side, or eliminating from play one reduced strength unit or single step unit.
+8.5.2 Retreats
+A loss taken as a Retreat requires all involved units of the affected side to retreat one hex. Retreats do not require the expenditure of MPs and are expressed in hexes rather than MPs. It is not necessary for all retreating units to retreat to the same hex. Units cannot retreat into prohibited terrain, nor can they end a Retreat overstacked. If these conditions cannot be met, any remaining unfulfilled losses must be taken as step reductions. For each hex of its Retreat a unit must follow these four priori-
+ties, in order:
+I. Stacking: A hex that will not result in the elimination
+of any unit due to overstacking.
+II. Map Edge Boundary: A hex that will not result in
+the unit’s removal from the game due to involuntary
+movement off a map edge (see 4.2). III. eZOC: A hex not in an eZOC.
+IV. Distance:
+1) a hex farther away from all enemy units that
+contributed their CS to the Combat.
+2) a hex that is no closer to any enemy unit that
+contributed their CS to the Combat
+When a choice of hexes exists, the owning player chooses which hex to enter. In cases where both attacking and defending unit(s) retreat, the attacker retreats relative to the defender’s original hex.
+Design Note: Due to the scale of the game, retreats need
+not be towards a friendly supply source.
+8.5.2.1 Retreat/Advance Limits
+The maximum number of hexes a unit may Retreat (8.5) or Ad-
+vance After Combat (8.7) is equal to its MA, minus two. Units with a MA less than 3 cannot retreat.
+Examples: A MG unit with an MA of 4 can retreat a maximum
+of 2 hexes. Soviet mortars (MA 2) cannot retreat.
+8.5.2.2 Retreats and eZOC
+Units which retreat into an eZOC hex incur one step loss to the retreating stack (not to each individual unit) upon arriving in the
+eZOC hex. Formerly OOS units eliminated in this manner may
+qualify to be back in supply (see 15.0) at the moment of their elimination. The step reduction for retreating into an eZOC is in addition to any other step reductions already incurred; it does not satisfy a loss. The owning player chooses which unit in the stack suffers the step reduction. A retreating unit is not required to stop moving upon entering an eZOC; it may continue to retreat to fulfill additional losses. If two attacking units start adjacent to each other (i.e., not stacked) and both retreat into the same hex in an enemy an eZOC, they are considered a stack the instant they enter the shared hex and thus take only a single step reduction.
+8.5.2.3 Retreated Units
+When a hex containing units that have retreated earlier in the Combat Phase is attacked, the CS of those units is considered to be zero. If a hex contains only these units, their CS is halved (totaled then rounded up) rather than zero. Even in cases where they contribute nothing to the defending hex, retreated units are affected normally by any losses applied to their hex by subsequent Combats, Assaults, and Night Raids. Retreated units can be tar- geted by Ranged Attacks, but they cannot make Ranged Attacks themselves during the phase in which they retreated. Players should rotate units 90 degrees as a reminder that they retreated.
+8.6 Eliminated Units
+When a unit which was already reduced takes another step reduc- tion, it is eliminated. Infantry companies which were in supply (15.0) at the instant of their elimination are placed in the Dead Pool Box on the map. These units may be eligible to be rebuilt later via Reconstitution (13.2.1). If the eliminated unit was OOS at the instant of elimination, or if it is a unit type other than an infantry company, it cannot be rebuilt and is placed in the Per- manently Eliminated Box.
+8.7 Advance After Combat
+If the defending hex is left vacant as a result of Combat, any or all attackers may Advance After Combat (also called an “Advance”) into the vacated hex, unless they retreated to fulfill a loss. The
+Advance is not considered movement and the advancing units
+ignore MP costs for terrain, though units may not advance into prohibited terrain. Advancing is optional (Exception: Assaults, 9.0), but if the attacker wishes to Advance he must do so imme- diately after Combat. Units may not conduct an Assault as part of an Advance. Mortars, AT gun units, and infantry gun units never Advance After Combat. After a successful Assault, the attacker must Advance into the vacated hex. (Exception: Armored units may conduct Overruns; see 12.1.2). Under certain circumstances, units may Advance as the result of a Ranged Attack (see 10.4.3). Units cannot perform a second Combat, or participate in a Com- bat with other friendly units, following an Advance.
+8.7.1 Multi-hex Advances
+If the defender retreated more than one hex the attacking units may advance an equal number of hexes, subject to the Advance Limits (see 8.5.2.1). The first hex of a Multi-hex Advance must be the original vacated hex. After entering this hex all advancing units need not follow the same path. If an advancing unit enters an eZOC, it must stop and advance no further. Units may only advance as many hexes as the defenders actually retreated. If all defending units were eliminated, the attackers may only advance into the defenders’ hex.
+Design Note: The victorious unit is busy mopping up scat-
+tered resistance and rounding up prisoners.
+9.0 Assaults
+Assault is a special type of combat which takes place during the movement of a unit or stack during the Action Phase.
+9.1 Criteria for Assaults13
+A unit or stack may Assault all defenders in a hex by paying the cost of the terrain in the enemy occupied hex, plus two additional MPs. Road movement cannot be used to conduct an Assault (Exception: Armored units). Attacking units do not actually enter the defending hex and any penalties for attacker’s terrain (i.e. frozen lake) apply to the hex from which the attackers “launch” the Assault. If a unit or stack does not have enough MPs to meet the criteria
+for an Assault, it may not Assault except via the “minimum
+movement rule” (4.1.1). Units cannot Assault into terrain which
+is prohibited to them. They can move from eZOC to eZOC and
+still conduct an Assault, if they have enough MPs remaining. Multiple units may only Assault hex if they began the Action Phase stacked together. Multiple stacks can never Assault the same hex at the same time, as per 4.1, although the same defend- ing units might be Assaulted multiple times sequentially during the same Action Phase by different assaulting stacks. Only infantry, armored units, engineers and MG units may Assault. AT guns, mortars, and infantry guns never Assault, though they still lend their CS to their hex when defending against an Assault.
+9.2 Resolving Assaults
+Assaults are resolved as Combats (per 8.2, 8.3, and 8.4) but with a different set of CRT modifiers and a few important differences. Neither attacker nor defender may commit ranged fire Support during an Assault. Assaults are resolved during the Action Phase using the CRT, with losses allocated normally except that the attacker must take all losses as step reductions. If the hex is va- cated as a result of the Assault, either by elimination or Retreat, the attacking units must advance into that hex, with a Multi-hex Advance (8.7.1) permitted; otherwise they remain in their current hex. Either way they end their movement for the turn (Excep- tion: Armored units conducting Overruns; 12.1.2) even if they had MPs remaining. Regardless of whether the Assault cleared the target hex, the attackers are still eligible to attack adjacent enemy units during the Combat Phase.
+10.0 Ranged Attacks
+Units with a RAS printed on their counter may fire into non- adjacent hexes during the Combat Phase (see 10.2). This fire is called a Ranged Attack, and it is resolved using the RAT. A unit’s RAS is the number by which that unit modifies its dice roll when
+conducting a Ranged Attack (see RAT). Ranged Attacks into
+adjacent hexes are allowed in one special situation (see 10.3.6).
+Design Note: Infantry rifle companies can perform Ranged
+Attacks at a range of 2 hexes because of their inherent light
+machine gun (LMG) squads. Nearly all units are capable of
+performing Ranged Attacks, to some degree. An exception
+is the Finnish engineer platoon, which is equipped with only rifles and pistols.
+Ranged Attacks cannot be combined. Each unit resolves its
+Ranged Attack individually using the RAT. Ranged Attacks always target a particular enemy-occupied hex,
+not an individual unit. Units may make Ranged Attacks into
+prohibited terrain (5.1). An enemy hex can be attacked by as many Ranged Attacks as the firing player likes, subject to range (10.1) and ammo restrictions (12.4.1). However, each unit can make only one Ranged Attack
+per Combat Phase (Exception: Optional Rule 20.1 Friction
+Fire). Units cannot perform a Combat and a Ranged Attack in
+the same phase. Effects of multiple Ranged Attacks vs. the same hex are cumulative.
+There are two general types of Ranged Attacks:
+a) Direct: This type originates from units which must have
+a LOS to the target hex. It includes MGs, armored units,
+AT guns, and infantry (via their LMGs).
+b) Indirect: This type originates from units which need not
+have a LOS to their target but require a spotter (10.5).
+Units which perform indirect Ranged Attacks have their
+RAS displayed in a yellow box and include mortars,
+infantry guns, and off-map artillery.
+Ranged Attacks are used in two ways:
+• Supporting Fire (10.3) targets an enemy hex which
+will also be the target of an impending Combat during
+the same Combat Phase. Supporting fire can take place
+during a player’s own Combat Phase (as offensive support)
+or during his opponent’s Combat Phase (as defensive
+support).
+• Non-Supporting Fire targets an enemy hex which will
+not be involved in a Combat during the same phase.
+Ranged Attacks and Combats can be performed in any order
+desired during a player’s Combat Phase, so long as all of them against a given hex are resolved before moving on to any other hex. Play Note: If the defending hex in question will also be the target of a Combat, it is usually to the attacker’s advantage to resolve any supporting fire against that hex before rolling
+on the CRT, since the RAT might yield beneficial column
+shifts. However, picking off a retreated unit with Ranged
+Attacks at times makes good sense.
+10.1 Range
+Range is defined as the number of hexes, via the shortest route,
+between the firing unit and the target hex. When measuring
+range, count the target hex but not the firing unit’s hex. Range is not relevant for off-map artillery, which consist of 76mm and larger guns. At this scale, their range is generally sufficient to hit any hex on the map (thus the “infinity” symbol in place of their Range value).
+10.2 Ranged Attack Criteria
+Normally, a unit may not conduct a Ranged Attack if it is in an
+eZOC. Restated for emphasis: You cannot perform a Ranged
+Attack vs. an adjacent enemy unit! For an important exception to this rule, see 10.3.6. Note that most units are capable of both
+Ranged Attacks and normal Combat.These units may never do
+both during their Combat Phase. Units in a hex marked with a Suppressed marker may not make Ranged Attacks.
+10.3 Support14
+Ranged Attacks performed in conjunction with Combat (8.0) are termed “Support” because they can potentially shift the Combat Ratio in the firing player’s favor. This Support is further classified as either offensive or defensive when the firing unit belongs to the phasing or non-phasing player, respectively. In many cases both players will allocate Support to the same Combat.
+10.3.1 Support Criteria
+Either type of Ranged Attack (direct or indirect) can be used as Support (offensive or defensive). The target hex must always contain one or more enemy units which are directly participating
+in the impending Combat. Neither attacker nor defender may
+allocate Support during an Assault (9.0).
+10.3.2 Declaring and Resolving Support
+The phasing player always allocates any Support first, announc- ing which units are providing the Support, followed by the non- phasing player who does the same and announces the target of the Support (if there is more than one hex of attackers). No Support is resolved (no dice are actually rolled) until both players have declared all Support. Note that the phasing player must declare whether he will Combat a hex before seeing the results of any Support rolls against that
+hex. In other words, the Combat cannot be cancelled if your
+Ranged Attacks fail to yield the desired results!
+Support is resolved per normal Ranged Attacks (see 10.4) with the phasing player resolving Support first, followed by the non- phasing player.
+10.3.3 Support Range
+Range of supporting fire is measured from the firing unit to the target hex (if offensive support), or from the firing unit to any one attacker hex (if defensive support).
+10.3.4 Defensive Support vs. Multiple Attacking Hexes
+When the non-phasing player is allocating Support and the attack- ers occupy more than one hex, the non-phasing player chooses which hex of attackers will be his target hex for purposes of
+10.3.5 Direct Fire Support
+Support from MGs, infantry, and tanks must be within range and have a LOS to at least one enemy which will be participating
+in the impending Combat. Each such unit can perform Support
+only once per Combat Phase. Design Note: Since direct fire weapons do not get flipped to a “Fired” side after firing, these types of units can, if placed in
+a good position, potentially perform a Ranged Attack twice
+per turn—once during their own Combat Phase, and once
+(as defensive support) during their opponent’s. And if using
+the Optional Rule Friction Fire (20.1) they can potentially
+fire any number of times!
+10.3.6 Adjacent Defensive Support15
+Units which are not in the defending hex may make a Ranged
+Attack into an adjacent hex for the purpose of defensive sup-
+port when:
+1) the attackers are in a frozen lake hex and
+2) the firing unit(s) is/are not in an eZOC, apart from that originating from the target hex. Example of Adjacent Support: In the illustration, the Soviets are performing a Combat against the Finnish infantry company, contributing CS from all adjacent Soviet units. The Finnish MG can perform Adjacent Defensive Support against the right-most Soviet stack on the ice because the MG is not in an eZOC apart
+from that of its target. The Finnish bicycle company cannot
+perform Adjacent Defensive Support vs. the Soviet infantry on the ice because the Finnish unit is in an eZOC of the reduced Soviet infantry company.
+10.4 Resolving Ranged Attacks
+All Ranged Attacks are resolved in the same manner, with each resolved before another is conducted. The firing player rolls two dice and adds the firing unit’s RAS to the result, along with any positive or negative DRMs as outlined under the RAT.
+There are three possible outcomes on the RAT: “No effect”,
+“Suppressed”, and “Suppressed plus # step reduction(s)”.
+10.4.1 Suppression.
+A modified roll of 14 or higher on the
+RAT is a “Suppressed” result which
+yields a favorable column shift on the
+CRT in the impending Combat. For
+offensive support this is a column shift to the right (1R) and for defensive support it is a column shift to the left (1L). Players may wish to use the provided “Suppressed” markers as a reminder of their net results prior to resolving the CRT Combat. Flip the marker to indicate which player benefits from the marker. Column shifts for suppression are cumulative to a maximum of three columns in either direction. Note that this does not limit the number of Ranged Attacks a player may roll against the same target hex. All suppression markers are removed at the conclusion of the Combat Phase.
+Design Note: The cumulative “Suppressed” results simu-
+late varying degrees of disorganization and pinning down
+of enemy units from incoming fire. These are conditions
+from which they will quickly recover unless the situation
+is exploited via good old fashioned combat. A “Suppressed” result against an enemy hex which is not sup-
+porting a Combat prevents units in that hex from supporting
+future Combats in the same phase (since units under a Suppressed marker cannot make Ranged Attacks). Player should mark these units “Suppressed” or else rotate them as a reminder. Note: In the vast majority of cases, the unit will not be in a position to support a future combat, thus no marker or rotation is necessary. Example of RAT results: The attacking player allocates a total of five units to offensive support. For each firing unit, he rolls two dice and consults the RAT. Four of the rolls yield a “Sup- pressed” result and the other yields “No Effect.” The impending
+Combat will be shifted the maximum of three columns in his
+favor. If the defender rolled for defensive support and achieved a “Suppressed” result of his own, the net result would still be 3R (4R and 1L net to 3R).
+10.4.2 RAT “Step Reduction” Result
+A modified roll of 17 or higher on the RAT also inflicts a step reduction on the target hex. The step reductions are applied as per the normal step reduction rules (8.5.1). The owning player decides which of his units suffer step reductions from Ranged Attacks. Units in the target hex cannot retreat in order to fulfill a loss from a Ranged Attack.
+10.4.3 Advance After Ranged Attack
+If the defending hex is left vacated as a result of a Ranged Attack, units which had previously declared Combat against that hex may advance into it, but no further. They cannot Combat a new hex.
+10.5 Spotters
+In order for indirect firing units to perform a Ranged Attack a friendly unit must be designated as the “spotter”. Firing units utilizing a spotter which is non-adjacent to the target hex incur a –1 DRM when rolling on the RAT. Ma +o1rt aorr a+n2d DinRfaMnt,r rye gspuenc utinvietsly m, wayh sepno tth feoyr tdhoe msos.e lSveelsf -asnpdo tgtianing units do not incur the –1 DRM mentioned above.
+10.5.1 Qualifications for Spotting16
+Any friendly unit or leader may be instantaneously designated a spotter if it is either adjacent to the target hex or non-adjacent with a LOS (10.6) to the target hex. Spotting is not considered an action. Acting as a spotter does not affect a unit’s ability to
+perform other functions such as Combat or Recovery. A unit
+currently involved in a Combat may act as a spotter. The same unit may spot for multiple firing units. The spotter need not be within any given range of the firing unit, nor does it require a LOS to the firing unit. Any friendly unit or leader may spot for any firing unit, regardless of formation (unless using Optional Rule 20.10 Soviet Coordina- tion; 20.11). Alternatively, mortars or infantry guns may self-spot.
+10.6 Line of Sight
+LOS is an imaginary line drawn between a spotting unit and a target unit or hex, for the purpose of the unit acting as a spotter and/or making a Ranged Attack (10.0).
+10.6.1 LOS and Blocking Terrain17
+LOS is blocked by any terrain type other than frozen lake. Thus, a unit always has a LOS to another unit within LOS range (see 10.6.2), so long as all intervening hexes are frozen lake. The units themselves can be in any type of terrain and still maintain LOS. Adjacent hexes are always spotted. LOS is traced from hex center to hex center. On rare occasions, the players may wish to use a straight edge or a piece of string to better visualize the line between hex centers. Roads have no bearing on LOS; the other terrain in the hex is used for LOS determination. Friendly units are considered blocking terrain only for direct fire Ranged Attacks. Friendly units never block LOS for spotters or indirect fire. If blocking terrain lies along a hex spine between the spotter and target hex, LOS is considered blocked only if blocking terrain exists in a hex on both sides of the hex spine, even if the block- ing hexes are at different points along the path (see illustrated example below). Hexes containing blocking terrain are considered to be entirely filled with that type of terrain, regardless of the appearance of the map graphic. Note that LOS works in both directions; if unit A can see unit B, then B can also see A.
+10.6.2 LOS and Time of Day
+Maximum LOS ranges are printed on the Turn Track.
+Design Note: The dawn and morning turns have thick fog
+which gradually burns off. Bareec nauost ep neirgmhitt tteudrn o LnO nSig ihs tl itmurintesd, etox c1e hpetxin, gd iAredcjta Rceanntg eDde Afetntascivkes Support (10.3.6).
+Extended Example of LOS: In this above example, we will as-
+sume it is a day turn (LOS is 5 hexes). The Soviet MG can see the Finnish MG, but it cannot fire on it because of the interven- ing friendly unit. It can also see the Finnish infantry on the frozen lake—the intervening forest hex lies along a hex spine
+and thus does not block LOS. The mortar unit cannot see any
+enemies, but it could utilize another Soviet unit as a spotter. All Finnish units are spotted except for the bicycle company and the infantry in the village hex. The Finnish bicycle company cannot see the Soviet infantry on the frozen lake due to intervening vil- lage hexes. The Soviet infantry on the road cannot see the Finn- ish infantry because of the intervening suo hex, but it can see the adjacent engineers. The Soviet AT unit cannot see the Finns on the frozen lake because blocking terrain lies along both sides of the hex spine (although at different points).
+Extended Example of Combat with Support: In this example
+(refer to following illustration), it is the Soviet Action Phase of a day turn. Three companies of Soviet infantry are attacking across Hevossalmi Bridge. The far side of the bridge is defended by a lone Finnish MG unit. The Soviet player declares the Combat, and he commits his MG and mortar unit to offensive support. Note that the mortar has no LOS to the target hex, but the three Soviet infantry companies can be utilized as an adjacent spotter. The Soviet MG has LOS to the target. The Finnish player commits his MG on the north shore of Myllyjärvi to defensive support; it is within range and has LOS to the attackers’ hex. Note that the attacker must declare Support first, followed by the defender. The attacker then resolves Support first. The Soviet
+MG has a RAS of 5 and thus gains a net +5 DRM. The Soviet
+player rolls a 7. As 7 + 5 = 12, the attack has no effect. The mortar fires with a net +5 DRM and rolls a 9. This becomes a 14, which is a “Suppressed” result that will shift the Combat 1R, in the Soviets’ favor. across the ice has a RAS of 5 and it gains a +3 DRM for three
+infantry companies in the target hex, for a net +8 DRM. The
+Finnish player rolls a 9. As 9 + 8 = 17, this yields a “Suppressed +1 step reduction” result on the RAT. The Soviet player must immediately flip one of his infantry units to its reduced side. The “Suppressed” portion of the result will shift the impending Combat 1L, in the Finns’ favor. Now we resolve the Combat. The attackers’ total CS is 13, but this is halved to 7 (totaled, then rounded up) for attacking across a bridge hexside. The defending unit has a CS of 3, but this is doubled to a 6 on the defense (as denoted by CS in black box). Odds of 7:6 round in the defender’s favor to a 1:1 Combat. In this case, there is no net column shift for Support because the Finns’ 1L for defensive support effectively cancels the Soviets’ 1R for offensive support. The Soviet player rolls an 8 and consults the CRT. This is a 1/1 result. Each side must take a loss. As the attacker, the Soviet player must take his first loss as a step reduction. He flips another infantry company to its reduced side. As the defender, the Finnish player may choose whether he wishes to take one step reduction or retreat all units one hex to fulfill the loss. He opts to flip his MG to its reduced side rather than allow the Soviets to Advance After Combat across the bridge.
+11.0 Anti-Tank Fire18
+AT Fire is a special type of attack made by Finnish AT guns
+against Soviet armored units. It is resolved using the ATFT. It may be resolved at any time during the Combat Phase, so long
+as each AT gun unit performs AT Fire only once. However, if
+the target armored unit’s hex will also be involved in a Combat during the same phase, the AT Fire must be resolved as step 4 of the Combat procedure (see 8.1).
+Design Note: Only the Finnish AT gun units are capable
+of AT Fire in Red Winter. Their AT Fire Range is printed
+on their counter as a red-boxed superscript following their
+normal Range. AwTh eFni rdee fmenadyi nbge apgearifnosrtm aend A asgsaauinlts wt ahnic ahd ijnaccleundte asr amrmoroerde du nuniti tosr. It may be performed at a range of 2 hexes if the firing AT gun unit has LOS to the target’s hex; a spotter cannot be used. Finnish AT guns also have a RAS value on their counters, reflecting the use of high explosive shells against personnel targets. A Finnish AT gun unit that performs AT Fire cannot also perform a Ranged Attack during the same phase, though it may perform AT Fire and still contribute its CS normally in a Combat or Assault.
+11.1 Resolving AT Fire
+The firing player declares a target and rolls a die for each strength step of the firing unit involved in the AT Fire. Example: The JR16 AT gun unit has two steps at full strength, so it rolls two dice. If reduced, it rolls only 1 die. The firing player specifies which armored unit is being fired upon on a roll by roll basis. A two-step unit may use its two AT Fire rolls against the same or different targets, declaring a target prior to each roll. Each die roll of 5 or 6 results in a step reduction to an opposing armored unit.
+11.2 AT Fire in Combats and Assaults
+Whenever Soviet armored units are opposing Finnish AT gun
+units in a Combat or Assault, or supporting a Combat and within range of Finnish AT gun units, resolution of all Finnish AT Fire precedes any Support rolls and the Combat roll (see 8.1). The Combat or Assault is then resolved normally. Note that armored units which have been declared for Support (10.3) rather than taking part in the Combat directly are still legitimate targets for AT Fire. AT Fire can be at a range of 1 or 2 hexes. In Assaults, AT Fire is only allowed from within the defender’s hex.
+11.3 AT Fire Modifiers19
+AT Fire receives a +1 DRM against adjacent targets and a +2
+DRM in Assaults. Note: AT shells penetrate more armor at closer
+ranges. Other DRMs may apply depending on the unit types
+involved (see ATFT).
+12.0 Special Units
+12.1 Armor20
+The four armored units (also called “armor”) include three tank companies and one armored recon battalion consisting of BA-10 armored cars. Only the Soviets have armored units. They are not
+used in all scenarios. Armored units:
+• may conduct Overruns (12.1.2).
+• have movement restrictions or penalties in terrain types
+other than village and primary road (see 12.1.3). • i1g2n.1o.r1e) .all losses from Combat and Ranged Attacks (see • are vulnerable only to Assaults (9.0), Night Raids (16.4), and AT Fire (11.0). • have their CS halved on night turns (see 8.2, case 2). • have a Retreat Limit of zero in Assaults (see 12.1.1). • provide a beneficial column shift of 1L/1R (Soviet player’s favor) when contributing CS to any Combat or Assault.
+Only one column shift is provided, regardless of the
+number of armored units involved.
+Historical Note: The Finns were not accustomed to
+fighting armored units and the mere sound of them ap-
+proaching often induced panic. • ignore an eZOC of all units except for Finnish AT units. Play Note: While the final rule is fairly simple, it does have a few ramifications that may not be immediately apparent. In
+situations where no Finnish AT gun unit is present: Armored
+units can move out of a hex adjacent to the enemy without
+paying the normal +1 MP, they can use road movement to
+move adjacent to the enemy, they can perform a Multi-hex
+Advance After Combat even when the initial hex of their
+advance brings them adjacent to the enemy, and they can
+perform Adjacent Defensive Support even when adjacent to
+enemy hexes apart from the target hex.
+12.1.1 Armor and Losses21
+Armored units only suffer step reductions from Assaults (9.0), Night Raids (16.4), and AT Fire (11.0). When a mixed stack of armored and non-armored units suffers losses, the losses cannot be assigned to the armored units and simply be ignored; they can, however, be assigned to the armored units and taken as step reductions to those units.
+Play Note: The Finnish player will note that his infantry,
+MG, and engineer units do not have AT ratings. These units
+will need to Assault Soviet armor to destroy it.
+Armor Losses in Combat. When involved in a Combat (8.0),
+armored units ignore all losses (Retreats and step reductions); although they may voluntarily retreat in response to losses, they are not required to do so. If a loss as the result of a Combat is taken as a Retreat by a mixed stack of armored and non-armored units, any armored units in the stack may retreat as well, but they are not required to do so. Armor Losses in Assaults. Armored units have a Retreat Limit of zero in Assaults; that is, they cannot retreat to satisfy losses when defending against an Assault. Step reductions taken in As- saults are distributed between armored and non-armored units as the owning player sees fit. Example: The Finns Assault a Soviet stack consisting of three infantry companies and a 2-step tank company. The CRT yields a 0/4 result. If the Soviet player wishes to retreat, he must first assign 2 step reductions to the tanks (eliminating them) so that he can then retreat the infantry units 2 hexes to absorb the remaining losses. Alternatively, he could preserve the tanks by assigning all 4 losses to the infantry (and not retreating). Arerdmucotrio anns dfr Roman Rgeadng Aedtt aActktasc. kAs.r mCoorleudm unn sithsi fntse vfeorr ssuufcfceer ssstfeupl Support apply normally.
+12.1.2 Overruns
+Armored units may use the road movement cost
+when assaulting a target hex which lies along a road
+(as an exception to 9.1). Thus it costs 2.5 MPs per
+Assault on a primary road, and 4 MPs on a second-
+ary road / trail (6 MPs for armored cars; see 12.1.3). Following a successful Assault in which the target hex is vacated of defend- ers, either by elimination or Retreat, armored units may con- tinue to move and/or Assault with any MPs remaining to them.
+Players may wish to use the provided “MPs Remaining” marker
+on the Information Track. Reminder: Advance After Combat,
+including Multi-hex Advance, does not expend MPs and thus
+would not cost the armored units any MPs.
+12.1.3 Armor and the Road Network22
+Armored units may utilize road movement and/or Extended
+Movement (4.3) like any other unit, but they may pay additional MPs for using roads other than primary roads (see below). Their MA is shown in an orange box as a reminder. To reflect Soviet military doctrine and the difficult terrain, no armored unit may leave the road network (the series of all con- nected road hexes on the map), except to enter a village hex.
+Additionally:
+• Tanks pay 1 MP per hex to use secondary roads/trails.
+• Armored cars (the BA-10 unit) pay 2 MPs per hex to use
+secondary roads/trails
+12.1.4 Armor Commitment23
+Unless specified otherwise in the scenario-specific instructions, the following rules apply in all scenarios which include any or
+all of the final four days (Dec. 9-12) of the battle:
+The four Soviet armored units are Variable Reinforcements (VRs). At the start of his Action Phase during turn 6, and every Action Phase thereafter, the Soviet player must decide whether he wishes to enter some, none, or all of his armored units. He yields a certain number of VPs to the Finnish player for each armored unit which enters as a reinforcement. The cost per unit varies with the turn of entry and is printed on the Turn Track. The VP cost is added to the Finnish VP total, not subtracted from the Soviet VP total. Example: The Soviet player waits until game turn 30 and then commits all four armored units. The Finnish player is awarded 8 VPs (2 VPs per unit).
+12.2 Anti-Tank (AT) Units24
+These units represent AT
+guns and their supporting
+crews. They are mainly
+horse-drawn (Finns) or
+tractor-towed (Soviets). AT units are capable of Combat and
+direct fire Ranged Attacks as well as AT Fire. The Soviet AT units
+have their CS doubled on the defense, as indicated by a CS
+value in a black box.
+12.3 Pajari
+The Finnish leader, Lt. Col. Pajari, is treated as a
+normal infantry unit in most regards. He qualifies for
+Finnish Ski Bonus (4.4), Extended Movement (4.3),
+and Double Movement on night turns (16.1). He is
+not considered a combat unit and does not count towards stacking limits, nor does he exert a ZOC when alone in a hex. Pajari cannot Dig In (14.0), although he may occupy a Dug-In hex normally. Pajari has an assumed CS of zero, but units stacked with him
+gain a favorable one-column shift on the CRT in Combats and
+Assaults. Pajari lends this bonus even if he has retreated and is attacked subsequently in the same phase. Pajari may act as a spotter for indirect Ranged Attacks. Pajari Retreats and Advances After Combat just like any normal
+unit (including Multi-hex Advance) when stacked with units
+which do so. Pajari grants a +2 DRM when participating in Night Raids (16.4). Friendly units attempting Recovery (13.3) gain a +1 DRM to their die roll when stacked with Pajari. Pajari can move into a hex and still provide this bonus, but he cannot move or participate in a Night Raid after he is used to provide this bonus.
+12.3.1 Pajari and Losses
+Pajari has one step and cannot be rebuilt if eliminated. He can- not be voluntarily eliminated to satisfy a loss or mandatory step reduction, nor does he suffer a step reduction for retreating into an eZOC (but see below). If at any time an enemy unit enters Pajari’s hex while he is alone in the hex, the Finnish player may pick up the leader and place him with the nearest friendly combat unit. If more than one unit is equidistant, the Finnish player may choose.
+When alone in a hex, Pajari cannot be attacked via Combat,
+Assault, or Ranged Attack. He can be eliminated only by being forced to retreat into an eZOC or when all units in his hex are
+eliminated while OOS. When either event occurs, the Finnish
+player rolls a die. On a roll of 1, Pajari is captured (or killed) and removed from the game. On any other result he is placed with the nearest friendly combat unit, as above. Step reductions mandated by the SZLT (16.3) affect Pajari only if using Optional Rule ‘Pajari’s Heart Condition’ (20.6).
+12.4 Artillery26
+Note: The Soviet infantry gun units are
+not treated as artillery under these
+rules (see 12.5). Artillery units are
+special units that are held off-board. Their counters are placed in front of the owning player as they
+become available as reinforcements on the Turn Track. Their
+only function is to perform indirect fire Ranged Attacks which can strike enemy units anywhere on the map, provided they have a spotter with a LOS to the target hex.
+Each artillery unit is flipped to its “Fired” side after
+making a Ranged Attack (whether during the
+player’s own Combat Phase or as defensive support
+during his opponent’s Combat Phase) and cannot
+12.4.1 Ammo
+Ammo refers specifically to 76mm off-
+map artillery ammo, which is tracked
+by both players using their correspond-
+ing Ammo markers on the Information
+Track. When a player is out of ammo, his 76mm off-map artillery cannot fire. Each Ranged Attack from a 76mm off-map artillery unit expends one point of ammo. Mortars and infantry guns do not track ammo. The larger caliber artillery of the Soviet 354th Regiment do not track ammo (see 12.4.2).
+Ammo allocations are specified in each scenario. Generally,
+the players will look to the Turn Track to see when more ammo becomes available. Ammo becomes available for use at the start of its scheduled turn, during the Reset Phase.
+12.4.2 Soviet 354th Artillery Regiment27
+These three off-map artillery
+units make indirect Ranged
+Attacks as described in
+12.4, above. However, after
+making a Ranged Attack, flip the artillery unit over and roll one die. Place the unit on the Turn Track this number of turns in the future. It will become available to fire again on the indicated turn. Example: A 122mm artillery unit fires on game turn 9. The Soviet player rolls a 4 and places it on the Turn Track on turn 13, when it will become available to fire again. If the die roll indicates that an artillery unit would be placed on the Turn Track after the final turn of the game, that unit cannot fire again and it is removed from the game.
+12.4.3 Soviet Artillery Park
+The Soviet artillery is parked off-map east of hex X28. The instant a Finnish full strength infantry unit enters X28, the Finnish player may voluntarily remove his unit permanently from the game and
+two events are triggered:
+a) All Soviet 354th Artillery Regiment units are removed
+from the game. If this event occurs prior to their entry on
+turn 9, they never enter the game.
+b) The Soviet player loses half his 76mm ammo (rounded
+down) and removes one off-map 76mm artillery battalion
+(one unit counter). The remaining 76mm artillery
+battalions are unavailable for the next 4 turns. Place them
+on the Turn Track 5 turns ahead of the current game turn.
+Design Note: The remaining battalions have been lim-
+bered and pressed into a hasty retreat. While event “a” can be triggered only once, “b” can occur any number of times, up to once per game turn, if additional Finnish infantry units enter hex X28. Voluntarily removed Finnish infan- try companies are not considered eliminated for VP purposes. Many scenarios also award VPs to the Finnish player for trigger- ing the Soviet Artillery Park event. Finnish Night Raids (16.4) do not trigger the event.
+12.4.4 Finnish Artillery Park
+The instant a Soviet infantry unit enters the Finnish supply source
+12.5 Mortars and Infantry Guns
+Mortars and infantry guns
+are single-step units that
+may perform indirect
+Ranged Attacks. Unlike
+off-map artillery (12.4), these units have a limited range and their unit counters are placed on the map. Each mortar or infantry gun unit is flipped to its “Fired” side after making a Ranged Attack and cannot fire again until after the owning player’s Reset Phase. Mortars and infantry guns receive a +1 or +2 DRM, respectively, when they self-spot.
+12.5.1 Mortars and Infantry Guns in Combat
+Mortars never perform Combat or add to the CS of an attacking stack. They contribute their meager CS normally when defending. Their CS is shown in parentheses as a reminder. Mortars and infantry guns never Advance After Combat, even if stacked with attacking units. They may retreat when their stack suffers a loss, if allowed by the Retreat Limit (8.5.2.1).
+12.6 Finnish Engineer Platoon29
+This unit is treated as a normal infantry unit in all
+respects except that it may Dig In (14.0) in a single
+turn and it may do so even in an eZOC so long as it
+is stacked with one or more friendly units (see 14.2.1).
+12.7 Finnish Bicycle Battalion30
+These three infantry units
+(denoted by a bicycle
+symbol on the counter)
+are special in name only. They are treated as regular infantry companies for all purposes,
+including Reinforcements, Replacements, Reconstitution, and
+Recovery.
+12.8 Finnish Provisional Company31
+The Finnish unit Prov/TF-P is a VR; it does not
+enter play as per the normal reinforcement rules.
+Instead, it is placed beside the Turn Track and can
+enter play at the Finnish player’s discretion at any
+time during the Campaign Game after the following conditions
+have been met:
+• It is day two (Dec. 9) or later.
+• One or more Soviet units have moved into or west of hex
+column letter I at any point in the game. • Pajari is within 4 hexes of Lutikkamökki (hex E13). To create the Provisional unit, the Finnish player simply places it with or adjacent to Pajari during the Finnish Action Phase. Both Pajari and the unit must be in supply and not in an eZOC at the instant of the unit’s creation. Both have their full allotment of MPs available on the turn of creation. The unit is created at its full step strength. Once in play, it is subject to all normal rules
+which govern infantry companies, including Replacements,
+Recovery, and Reconstitution.
+13.0 Reinforcements,
+Replacements and Recovery
+Throughout the game the players will have opportunities to
+strengthen and improve their forces via three methods: Reinforce- ments, Replacements, and Recovery.
+13.1 Reinforcements
+Reinforcements enter the map via a friendly supply source hex (15.4) at any time during the Action Phase of that player’s turn, paying the movement cost for the entry hex and benefiting from
+road movement, if applicable. Reinforcements may enter the
+map in an eZOC, but then must stop movement as per normal
+rules. Reinforcements have their full MA available and may
+use Extended Movement (4.3) or Assault on their turn of entry.
+13.1.1 Special Reinforcements
+Finnish Turn 4 Infantry32
+The two Finnish infantry companies that enter
+the game on turn 4 (5 and 6/2/JR16) have their
+MPs reduced by 2 on their turn of entry; there-
+after, they move with their normal MA. As a
+reminder, a “–2 MP” is printed on their counter near their
+entry code.
+Soviet 718th Regiment33
+Soviet units of the 718th Rifle Regiment (green
+ID boxes) enter the game via hex X1 instead of
+a supply source hex, as denoted on their counters
+by a boxed turn entry code. These are the only
+units which may enter via this hex. Also note that X1 is not
+a supply source hex, so these units may or may not be in
+supply upon entering.
+13.1.2 Voluntary Delay of Reinforcements.
+Reinforcements may be voluntarily delayed to enter on a later turn, as the owning player desires.
+13.1.3 Involuntary Delay of Reinforcements.
+If a reinforcement’s specified entry hex is occupied by an enemy unit, the unit instead enters at any hex along the same map edge that is within 3 hexes of the specified entry hex, and its entry is delayed by 1 turn.
+13.1.4 Reinforcement Entry on Night Turns
+Units which are scheduled to enter the game on night turns are allowed to use road movement (5.3), Extended Movement (4.3), and Double Movement (16.1) if otherwise eligible.
+13.2 Replacements
+RPs become available as indicated on the Turn Track. They must be spent on the turn they become available or they are lost. A reduced infantry company may take a RP during its own Reset Phase. For each RP expended, a player may flip one such unit back to its full strength side (see also Reconstitution, 13.2.1). A unit must be in supply to take a RP. An eZOC has no effect on a unit’s ability to take a RP, other than the “in supply” requirement already noted. RPs can only be used to replenish lost infantry steps.
+13.2.1 Reconstitution
+During a friendly Reset Phase, 2 RPs may be spent to bring back a previously destroyed infantry company at its reduced strength status, or at full strength for 3 RPs. Reconstituted units are placed in any hex which is within 10 hexes of a friendly supply source hex, 4 or more hexes from all enemy units, and which would place them in supply. Units placed directly on a friendly supply source hex need not be 4 or more hexes distant from all enemies. Alternatively, reconstituted units
+may be placed on any future game turn on the Turn Track, at
+which time they will enter the game as a normal reinforcement.
+13.3 Recovery
+Design Note: Recovery simulates rallying and a return to
+a coherent structure and, to a lesser extent, an incoming
+“trickle” of new troops to replace losses. Reduced infantry companies may attempt to recover to their full strength during their Action Phase. Each such unit rolls a die and consults the Recovery Table, with a successful check allowing the unit to immediately flip back to its full strength side. DRMs may apply to the roll; see Recovery Table.
+A unit which attempts Recovery:
+• cannot be in an eZOC.
+• cannot perform any other action during that Action Phase
+(Exception: build a Bonfire, 16.2).
+• need not be in supply, although OOS units receive a –1
+DRM on the Recovery Table.
+• must be a reduced infantry company; other unit types
+cannot perform Recovery
+Design Note: Recovery and Replacements achieve the
+same results, but the former requires a die roll and cannot
+be performed in eZOC.
+14.0 Digging In34
+Units may improve upon the natural
+defensive potential of a hex via a two
+turn process called “digging in”.
+Design Note: Due to the short time scale and the frozen
+ground the improvements represented, and their effects,
+are fairly minor.
+14.1 Requirements for Digging In
+An infantry, engineer or MG unit may dig in during its Action Phase instead of performing another action. A unit may not dig in if it is in an eZOC (Exceptions: Engineer units (14.2.1), Night turns (14.5)). Units may dig in in all terrain types except frozen
+lake. A unit which is digging in may perform Ranged Attacks
+(since this does not take place during its own Action Phase). Tthhee n nuummbbeerr o off D huexge-Isn w mhaicrkhe erasc ihn pthlaey ceor umnateyr dmigix i.n E isit lhiemr iptelady beyr may voluntarily remove his Dug-In markers at any time. These markers are color-coded red for Soviets and white for Finns.
+14.2 Procedure for Digging In
+Place a “Digging In” marker atop the unit. On a following turn the marker may be flipped to “Dug-In” if the requirements are still met, by taking another digging in action. Note that a unit need
+not remove a Digging In marker just because an enemy moves
+adjacent, even though it cannot continue digging in while the enemy remains adjacent. See also Night Turns (16.0).
+14.2.1 Engineers and Digging In
+Engineers allow a hex to obtain Dug-In status in a
+single game turn. If an engineer begins its Action
+Phase in the hex and does not take any other action
+during the phase, skip the “Digging In” step and
+place a “Dug-In” marker instead. Engineers can dig in even in an eZOC so long as they are stacked with another friendly unit (Pajari does not count).
+14.3 Effects of Being Dug-In
+When attacking a hex marked with a
+Dug-In marker, the attacker suffers a
+1L column shift. This penalty is ap-
+plicable in both normal Combats and
+Assaults. Ranged Attacks against Dug-In units are at a –1 DRM (if indirect fire) or –2 DRM (if direct fire). Note that once a Dug-In marker is placed, any and all unit types gain the ben- efit for being in the hex. Friendly units which move into the
+hex are placed under the Dug-In marker and also receive the
+benefits. There are no effects for being in a hex with a “Digging In” marker. Example: An infantry unit spends two turns to place a Dug-In marker in a hex. During that time, a friendly AT unit enters the hex. On the turn following the placement of the Dug-In marker the infantry unit leaves the hex. The AT unit remains in the hex, as does the Dug-In marker.
+14.4 Removal of Dug-In Markers
+If there are no units of the owning side in the marked hex, whether they moved out of the hex voluntarily or by a Retreat, or were eliminated, the Dug-In or Digging In marker is instantly removed from the hex. This means that an attacking unit that advances into a previously Dug-In hex does not gain the benefits.
+14.5 Digging In on Night Turns
+Units may become Dug-In in a single night turn (without plac- ing “Digging In” markers first) and they may do this even in an eZOC.
+15.0 Supply
+All combat units on the map are always considered to be in one of two possible supply states: in supply, or out of supply (OOS). Within the scope of this game, supply status never affects combat operations or movement. Units never suffer step reductions or combat penalties for being OOS.
+15.1 Checking Supply Status
+Supply is checked at 4 instances during the game:
+1) Receiving Replacements. A unit must be in supply at
+that instant in order to receive a RP.
+2) Attempting Recovery. A unit receives a –1 DRM if OOS
+at the instant it attempts Recovery. 3) Elimination of a unit. A unit which is OOS at the instant
+of its elimination is placed in the Permanently Eliminated
+Box and not eligible for Reconstitution.
+Design Note: The surrounded units have been captured
+or utterly annihilated.
+4) Victory Determination. In some scenarios, a unit must
+occupy an objective hex while also being in supply at that
+instant to qualify for VPs (see scenario specific rules).
+15.2 Soviet Supply Paths35
+A Soviet unit is in supply if it can trace a path of no more than four hexes to a road hex, then along a path of contiguous road hexes back to a friendly supply source (15.4). At no point may
+either path enter a hex occupied by an enemy unit or eZOC,
+though friendly units negate eZOC in a hex for purposes of trac- ing supply. The supply path can be of any length so long as the other requirements are met.
+15.3 Finnish Supply Paths
+A Finnish unit is in supply if it can trace a path of any number of contiguous hexes of any terrain type, free of enemy units and eZOC, back to a friendly supply source. Friendly units negate an eZOC in a hex for purposes of tracing supply.
+15.4 Supply Sources
+The supply source symbols for each side
+are printed on the map, as explained on the
+Map Key. The Soviet supply source (hex
+X28) is red while the Finnish supply source hex (A13) is blue.
+16.0 Night Turns34
+“Let your plans be dark and impenetrable as night, and when
+you move, fall like a thunderbolt.”
+~ Sun Tzu
+Each night turn represents a period of 15 hours, as opposed to
+90 minutes for daytime turns. Units may perform movement,
+Assaults, and Combats on night turns, though by doing so they may incur additional step reductions on the SZLT (see 16.3). The
+following special rules apply during night turns:
+• Recovery attempts receive a favorable +1 DRM. • Ranged Attacks incur a –2 DRM. • LOS range is reduced to one hex.
+• Units may become Dug-In in a single turn and they may
+do this even in an eZOC (14.6). • Units may qualify for Double Movement (16.1). • Soviet armored units have their CS halved (8.3, case 2). • Soviet units may build Bonfires (16.2).
+• Finnish infantry companies may be eligible to conduct
+Night Raids (16.4).
+Design Note: During the battle for Tolvajärvi, considerable
+action took place during the dark hours. Thus I felt it was
+necessary to craft a special set of rules to cover night turns.
+16.1 Double Movement on Night Turns
+A unit which does not begin its Action Phase in an eZOC has
+its MA doubled for the night turn, and this bonus may be used
+in combination with road movement and Extended Movement
+(4.3), or to perform an Assault (9.0). Design Note: This is not to infer that units can move further
+at night—quite the opposite is true. Remember that a night
+turn represents a period of time which is ten times longer than
+a normal turn. The Double Movement during a single turn
+makes it easier to maneuver through gaps in the enemy’s line or outflank his positions. Thus players will want to position their units very carefully prior to night turns. Units utilizing Extended Movement (4.3) plus Double Movement have their MA doubled and then receive the 2 additional MPs.
+Thus, a unit with a MA of 5 could utilize Extended Movement
+plus Double Movement for a total of 12 MPs (24 road hexes). Retreat and Advance Limits are never doubled on night turns.
+16.2 Bonfires
+Only Soviet units may build Bonfires and only dur-
+ing a night turn Action Phase. A unit that builds a
+Bonfire may also attempt Recovery (13.3) as part
+of its Action Phase. The unit must be 4 or more
+hexes from all enemy units and not in a frozen lake hex. Units under a Bonfire can do nothing during their Combat Phase. Place a Bonfire marker upon the building unit’s hex. Bonfires are removed at the conclusion of the Sub-Zero Loss Phase or at the instant all Soviet units under the Bonfire retreat out of the
+hex or are eliminated
+Bonfires may never move. Any number may be built; the counter mix is not a limit. Where multiple units in the same hex build a Bonfire, place a single marker with all building units beneath the marker. Units which enter a pre-existing Bonfire hex, whether by movement or Retreat, are placed atop the Bonfire marker and do not benefit from its effects. A hex may contain both units atop and under a Bonfire marker.
+16.2.1 Effects of Bonfires
+Soviet units under a Bonfire marker are not required to roll for step reductions on the Sub-Zero Loss Table (SZLT) (16.3).
+16.3 Sub-Zero Loss Table (SZLT)36
+Design Note: The SZLT simulates the effects of the extreme
+cold which led to desertion, poor morale, frostbite, hypo-
+thermia, and even death. At the conclusion of each night turn, units that underwent certain activities during the night turn must roll on the SZLT to see if they suffer step reductions due to attrition. All Soviet stacks not beneath a Bonfire marker, as well as all Finnish stacks marked with Skull markers must roll on the SZLT. Important: This is done for each stack, not each individual unit. Note that the defi- nition of “stack” here can include a single unit alone in a hex. The SZLT does not apply to off-map artillery.
+Units on frozen lake receive a –1 DRM on the SZLT. Finnish
+units always receive a +1 DRM when rolling on the SZLT.
+Design Note: The Finns had portable camp stoves as well
+as weather-appropriate clothing.
+When applying step reductions due to the SZLT, the owning
+player may apply the reductions to any units in the afflicted stack as he sees fit.
+16.3.1 Skull Markers
+During their night turns, Finnish units or stacks are
+marked with “Skull” markers for conducting a Com-
+bat, Assault, or Night Raid. At the conclusion of the
+night turn, each stack (and the definition of stack here
+can include a single unit) must roll on the SZLT for possible step reductions. If two or more stacks or units under Skull markers come to occupy the same hex at the end of their turn, the newly created stack receives a single Skull marker and rolls only once. Finnish units never receive Skull markers for being attacked dur- ing the Soviet player’s night turn Combat Phase; they only receive them for actions voluntarily performed during their own night turn.
+16.4 Finnish Night Raids
+On night turns, full strength Finnish infantry units
+that take no other action may be eligible to conduct
+a special action called a Night Raid during their
+Action Phase. This allows them to utilize triple their
+normal MA, perform an attack using the CRT (possibly at a
+beneficial column shift), and return to their starting position, all as a single action. This gives the Finns considerably more flex- ibility on night turns than the Soviets. However, there is a chance a raiding party will become lost en route to its target hex, and the raid will not take place. To conduct a Night Raid, the Finnish player follows these steps: 1. Designate the raiding units. 2. Designate the target hex.
+3. Roll on the FNRT, applying any applicable DRMs as
+indicated beneath the table. The result shows whether the
+raiding party successfully located its target or became lost
+en route. If the former, then the FNRT also shows how
+many columns the base odds of the attack are shifted on
+the CRT. 4. If an attack was indicated in step #3, it now takes place.
+Calculate the Combat Ratio normally. If the final hex of
+the raiding Finns’ path is frozen lake, or across a bridge
+hexside from the target, the Finns halve their CS normally
+(see CRT modifiers). Apply the column shift as indicated
+in step #3 and resolve the attack on the CRT with no other
+modifiers. Support is not allowed. Results are applied
+immediately and all losses on both sides must be taken
+as step reductions.
+5. Regardless of the results obtained in steps #3 & #4, the
+raiding units remain in their original hexes (their counters
+were never actually moved) and each unit is marked with
+a Skull marker. Alternatively, mark the stack with the
+special Night Raid marker, denoting that each unit in the
+stack must individually check for a step reduction on the
+SZLT. A successful Night Raid will necessitate two die rolls—one to
+locate the target and determine the CRT column shift, and a
+second roll to resolve the attack.
+16.4.1 Criteria for Night Raids39
+The Finnish player may only conduct one Night Raid per night turn. Up to three full strength Finnish infantry units, with or without the leader Pajari, may together conduct the Night Raid if they begin their Action Phase either stacked with one another or positioned such that every participating unit is adjacent to every other par- ticipating unit and if none are in an eZOC. The target hex must be at least 4 hexes from all Finnish units at the start of the phase. Finnish units that perform a Night Raid can perform no other action during their Action Phase, regardless of whether the raid actually culminated in an attack roll or the raiding party became lost en route. Dug-In Finns which conduct a Night Raid do not lose their Dug-In status. Tanhde reaZidOiCng tuon tihtse m taursgte bte h aebxl e( tbou ttr awciet hao puatt ha cftrueael olyf emneomviyn gu nthites raiding units). The target hex cannot be more than 18 MPs from any of the raiding units, nor can it be the Hotel hex (M16). When calculating this, do not include the cost to enter the target’s hex and do not pay +2 MPs for conducting an Assault. Simply total the terrain cost of all intervening hexes between the raiding units and their target. Raiding units are eligible to use road movement (5.3) when tracing their route. Questions about the rules? Please feel free to contact me via
+Consimworld, Boardgamegeek, or my personal email at
+duckweedseattle@yahoo.com
+Credits
+Game Design and Development: Mark Mokszycki
+Art Director: Rodger MacGowan
+Box Art & Packaging: Rodger MacGowan
+Map: Mark Mahaffey
+Counters, Manuals & Player Aid Card: Charles Kibler
+Research: Vesa Teräs, Juuso Marttila, Mark Mokszycki,
+Ethan McKinney, Matti Nummila
+Lead Proofer: Ralph Shelton
+Proofing: Hans Korting, Ian Thompson, Keith Mageau,
+Todd Pytel, Andrew Carlstrom, Richard Crowe Jr., Rachael
+Mokszycki, Ethan McKinney, Vincent Lefavrais, John Holme
+Lead Playtesters: Keith Mageau, Eric Edwards, Mark
+Mokszycki
+Playtesters: Igor Kwiatkowski, Vesa Teräs, Juuso Marttila,
+John Holme, Kevin Sharp
+Production Coordination: Tony Curtis
+Producers: Tony Curtis, Rodger MacGowan, Andy Lewis,
+Gene Billingsley and Mark Simonitch
+A special “thank you” goes out to Michael Evans for all
+his hard work on the original playtest artwork and promo
+sketches, and for enduring my countless changes and revi-
+sions. Without Mike, I might never have gotten this game
+off the ground.
+IND
+Adjacent Defensive Support ............................................10.3.6 Advance After Combat ........................................................8.7 Ammo ..............................................................................12.4.1 Anti-Tank Fire .....................................................................11.0 Anti-Tank Units ..................................................................12.2 Armor (and Armored Cars) ......................................8.3(9), 12.1 Armor Commitment ..................................................12.1.4 Armor and Off-road Movement ...................................20.9 Armor on Night Turns ...............................................8.2(2) Artillery ...............................................................................12.4 Artillery Park ...........................12.4.3 (Soviet) 12.4.4 (Finnish) Assaults .................................................................................9.0
+Bonfires
+Marker ..........................................................................16.2 Bonus .......................................................................8.3(11) Bridges .......................................................................5.4, 8.2(1) Campaign Game ..................................................................17.1 Captured Soviet LMGs .......................................................20.4 Change of Operational Stance ...............................8.3(10), 17.1 Combat ..................................................................................8.0 Concentric Attack Bonus ..................................................8.3(4) Control (Hex) ........................................................................7.3 Digging In ...........................................................................14.0 “Dug In” Bonus .........................................................8.3(7) Direct Fire Support ..........................................................10.3.5 Double Movement ..............................................................16.1 Engineer Platoon .................................................................12.6 Extended Movement .............................................................4.3 Finnish Field Kitchens ........................................................20.8 Finnish Night Raids ............................................................16.4 Finnish Ski Bonus .................................................................4.4 Finnish Submachine Gun Bonus .....................................8.3(15) Fog of War ..........................................................................20.7 Forest..................................................................................5.2.1 Friction Fire ........................................................................20.1 Friendly Fire ........................................................................20.3 Frozen Lakes ......................................................................5.2.4 Attack Penalty ............................................................8.2(1) Defending in ..............................................................8.3(5) Getting Lost in the Woods ..................................................20.5 Gravel Pits ..........................................................................5.2.6 Hotel Hex ...........................................................................5.2.5
+DEX
+Infantry Guns ......................................................................12.5 Line of Sight (LOS) ............................................................10.6 Map Edge Boundaries ...............................................4.2, 17.0.1 Minimum Movement .........................................................4.1.1 Morale Bonus ....................................................................8.3(8) Mortars ................................................................................12.5 Night Raids .......................................(See Finnish Night Raids) Night Turns .........................................................................16.0 Optional Rules and Variants ................................................20.0 Overruns ...........................................................................12.1.2 Pajari ...............................................................8.3(6), 12.3, 12.8 Pajari’s Heart Condition ..............................................20.6 Prohibited Terrain .................................................................5.1 Range ..................................................................................10.1 Ranged Attacks ...................................................................10.0 Reconstitution ..................................................................13.2.1 Recovery .............................................................................13.3 Replacements ......................................................................13.2 Retreats ..............................................................................8.5.2 Roads.....................................................................................5.3 Skull Markers ...................................................................16.3.1 Soviet 354th Artillery Regiment ......................................12.4.2 Soviet Armor Bonus ..........................................................8.3(9) Soviet Coordination ..........................................................20.10 Soviet Morale Collapse ....................................................17.0.4 Spotters ...............................................................................10.5 Stacking .................................................................................6.0 Step Reductions .................................................................8.5.1 Sub Zero Loss Table ...........................................................16.3 Suo (Wetlands) ...................................................................5.2.2 Supply .................................................................................15.0 Soviet Supply Paths .....................................................15.2 Finnish Supply Paths ...................................................15.3 Supply Sources ............................................................15.4 Support/Supporting Fire......................................................10.3 Suppression ...........................................................8.3(3), 10.4.1 Tanks .......................................................................(see Armor) Tolvajärvi Village Hexes ....................................................5.2.3 Unit Designation and Order of Appearance ........................24.0 Victory Point Bid Method ................................................17.0.2 Villages ..............................................................................5.2.3 Zone of Control .....................................................................7.0
+Sequenc
+I. First Player Reset Phase
+Player One flips all his “Fired” Morta
+their front side and adjusts his ammo
+RPs (13.2) that become available on th
+II. First Player Action Phase
+Each unit may perform one of the foll
+• Move (4.0) and/or Assault (9.0).
+• Attempt Recovery (13.3). Reduced
+• Dig In (14.0). Infantry companies
+During Night Turns (16.0) the followi
+• Double Movement (16.1). Unit ca
+• Build a Bonfire (16.2) and/or attem
+• Conduct a Night Raid (16.4). Finn
+The first player may also bring Reinf
+during his Action Phase. Players may
+action by rotating them 180 degrees.
+III. First Player Combat Phase
+Player One rolls for Ranged Attacks
+order. Player Two may roll for defens
+all Suppressed markers are removed.
+IV. Second Player Turn
+As above, except that Player Two no
+order. Replace “Player One” with “Pla
+V. Sub-Zero Loss Phase (16.3) (Night t
+At the conclusion of each night turn, b
+roll on the SZLT. Rolls are made for al
+(16.2) and all Finns under Skull mark
+markers.
+VI. Victory Check Phase
+Players check to see if either has won
+scenario. If not, advance the Turn mar
+ce of Play
+ars, Infantry Guns, and off-map Artillery to
+according to the Turn Track. He spends any
+he current game turn.
+lowing actions:
+d infantry companies only. s, engineers, or MG units only.
+ing actions are also available:
+annot begin phase in an eZOC. mpt Recovery (13.3). Soviet units only. nish full strength infantry companies only.
+forcements (13.1) on to the map at any time
+y wish to indicate which units have taken an
+(10.0) and conducts Combats (8.0), in any
+sive support (10.3). At the end of the phase,
+ow conducts the operations in steps I-III, in
+ayer Two” and vice versa.
+turns only)
+beginning with the Soviet player both players
+ll Soviet stacks which are not under Bonfires
+kers (16.3.1). Remove all Skull and Bonfire
+n according to the Victory Conditions for the
+rker and restart the Turn Sequence.
