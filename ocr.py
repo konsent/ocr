@@ -24,7 +24,7 @@ OUTPUT_PATH = "output.txt"
 HEADER_RATIO = 0.05   # 상단 8% 제거
 FOOTER_RATIO = 0.93   # 하단 8% 제거
 COLUMN_SPLIT_RATIO = 0.5  # 좌우 단 분리 기준
-
+TITLE_LEVEL = 3  # 0 = 1.0 /  1 = 1.0, 1.1 / 2 = 1.0, 1.1, 1.1.1
 
 # ---------------------------
 # 제목 레벨 함수
@@ -42,7 +42,6 @@ def build_title_patterns(title_level):
     patterns.append(r"^[A-Z][A-Z\s\-]{5,}$")
 
     return patterns
-
 
 
 # ---------------------------
@@ -193,8 +192,7 @@ def extract_page_text_legacy1(page):
 # ---------------------------
 all_lines = []
 
-# 0 = 1.0 /  1 = 1.0, 1.1 / 2 = 1.0, 1.1, 1.1.1
-TITLE_LEVEL = 3  # 여기만 바꾸면 됨
+
 TITLE_PATTERNS = build_title_patterns(TITLE_LEVEL)
 
 with pdfplumber.open(PDF_PATH) as pdf:
