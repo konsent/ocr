@@ -1,5 +1,19 @@
 import pdfplumber
 import re
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+
+# 구글 API
+scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
+
+# 구글 API 키 적용
+filename = "translation-418422-02dd548565fc.json"
+creds = ServiceAccountCredentials.from_json_keyfile_name(filename, scope)
+gc = gspread.authorize(creds)
+
+# 구글 스프레드 시트 경로
+sheet = gc.open_by_url("https://docs.google.com/spreadsheets/d/18ZPGcV0qElVQq8JaMMp3nib0MT6_znnIETQvGsumCwM/edit?gid=0#gid=0").sheet1
+
 
 PDF_PATH = "RW_Rules_FINAL_Med_Res.pdf"
 OUTPUT_PATH = "output.txt"
@@ -7,8 +21,8 @@ OUTPUT_PATH = "output.txt"
 # ---------------------------
 # 설정값 (문서마다 조정 가능)
 # ---------------------------
-HEADER_RATIO = 0.08   # 상단 8% 제거
-FOOTER_RATIO = 0.92   # 하단 8% 제거
+HEADER_RATIO = 0.05   # 상단 8% 제거
+FOOTER_RATIO = 0.93   # 하단 8% 제거
 COLUMN_SPLIT_RATIO = 0.5  # 좌우 단 분리 기준
 
 # # 제목 판별 규칙
@@ -51,10 +65,6 @@ def is_title(line):
         if re.match(p, line):
             return True
 
-    # 짧고 마침표로 끝나지 않는 줄 → 제목 가능성
-    if len(line) < 60 and not line.endswith("."):
-        return True
-
     return False
 
 
@@ -64,22 +74,49 @@ def is_title(line):
 def merge_paragraphs(lines):
     paragraphs = []
     buffer = ""
+    pending_break = False
 
     for line in lines:
         line = line.strip()
         if not line:
             if buffer:
-                paragraphs.append(buffer.strip() + "\n")
-                buffer = ""
+                pending_break = True
+            continue
+
+        # 소문자로 시작하면 무조건 이어붙이기 (줄바꿈 무시)
+        if line and line[0].islower():
+            if buffer:
+                buffer += " " + line
+            else:
+                buffer = line
+            pending_break = False
             continue
 
         if is_title(line):
             if buffer:
                 paragraphs.append(buffer.strip() + "\n")
-                buffer = ""
             paragraphs.append(line + "\n")
+            buffer = ""
+            pending_break = False
         else:
-            buffer += " " + line
+            # 문단 분리 조건 판별
+            should_split = False
+            if pending_break:
+                should_split = True
+            elif buffer:
+                # 이전 줄이 마침표로 끝나고, 현재 줄이 대문자/숫자 등으로 시작하면 분리
+                if buffer.strip()[-1] in ['.', '?', '!', '"', '”'] and (line[0].isupper() or line[0].isdigit() or line[0] in ['•', '-']):
+                    should_split = True
+
+            if should_split:
+                paragraphs.append(buffer.strip() + "\n")
+                buffer = line
+                pending_break = False
+            else:
+                if buffer:
+                    buffer += " " + line
+                else:
+                    buffer = line
 
     if buffer:
         paragraphs.append(buffer.strip() + "\n")
@@ -180,5 +217,10 @@ paragraphs = merge_paragraphs(all_lines)
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     for p in paragraphs:
         f.write(p)
+
+# 구글 스프레드시트 B2 셀에 결과 붙여넣기
+data = [[p.strip()] for p in paragraphs]
+if data:
+    sheet.update(range_name=f"B2:B{len(data) + 1}", values=data)
 
 print("완료:", OUTPUT_PATH)
